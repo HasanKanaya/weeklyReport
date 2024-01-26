@@ -18,6 +18,27 @@ body {
 .shape .top {
   height: 30%;
   background-color: goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shape .top .text {
+  margin: 0 30px;
+  color: azure;
+  letter-spacing: 1.6px;
+}
+
+.shape .top .text h2 {
+  margin: 5px 0;
+}
+
+.shape .top .text p {
+  font-size: 20px;
+}
+
+.shape .top .rightText {
+  text-align: right;
 }
 
 .shape .bottom {
