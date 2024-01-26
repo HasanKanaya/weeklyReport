@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: gray;
+}
+
+.shape {
+  width: 550px;
+  height: 400px;
+  background-color: aqua;
+  margin: 20vh auto 0;
+}
+
+.shape .top {
+  height: 30%;
+  background-color: goldenrod;
+}
+
+.shape .bottom {
+  height: 70%;
+  background-color: azure;
+}
